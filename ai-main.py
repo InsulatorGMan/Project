@@ -7,7 +7,7 @@ safe = True
 def main():
 	while True:
 		#Get AI's selected action
-		action = logic(1)
+		action = logic()
 		#Control the client
 		control(action)
 		print(action)
